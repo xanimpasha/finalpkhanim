@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 30%;
+    padding: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 8px 0;
+    border-color: darkgrey;
+}
+
+form button {
+    background: green;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+}
+
+form label {
+    color: black;
+    font-size: 1rem;
+}
